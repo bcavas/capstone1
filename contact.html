@@ -54,7 +54,7 @@
 
     <main class="container-fluid" id="coaching">
     	<div class="row" id="contact">
-    		<div class="col-xs-12 col-sm-12 col-md-6 col-lg-6 col-md-offset-1 col-lg-offset-1" id="contactdetails">
+    		<div class="col-xs-12 col-sm-6 col-md-6 col-lg-6 col-sm-offset-1 col-md-offset-1 col-lg-offset-1" id="contactdetails">
     			<div class="form-group">
     				<input type="text" class="form-control" id="contactname" placeholder="Full Name">
     			</div>
@@ -71,10 +71,26 @@
     				<textarea class="form-control" rows="5" id="message" placeholder="Message"></textarea>
     			</div>
 
-    			<button type="button" class="btn btn-primary" id="apply">Submit</button>
+                <!-- modal trigger button -->
+    			<button type="button" class="btn btn-primary pull-right" data-toggle="modal" data-target="#talk" id="apply">Submit</button>
+
+                <!-- modal -->
+                    <div id="talk" class="modal fade" role="dialog">
+                        <div class="modal-dialog">
+                            <!-- modal content -->
+                            <div class="modal-content">
+                                
+                                <div class="modal-body"><p>You can expect to hear from us soon. In the meantime, keep on lifting!</p></div>
+
+                                <div class="modal-footer">
+                                <button type="button" class="btn btn-default" id="apply" data-dismiss="modal">Close</button></div>
+
+                            </div>
+                        </div>
+                    </div>
     		</div>
 
-    		<div class="col-xs-12 col-sm-12 col-md-4 col-lg-4 col-md-offset-1 col-lg-offset-1" id="contactinfo">
+    		<div class="col-xs-12 col-sm-5 col-md-4 col-lg-4 col-md-offset-1 col-lg-offset-1" id="contactinfo">
     			<div class="pull-right">
     				<span><b>CHOPAIN</b></span>
     				<p>#69 Makisig St.</p> 
@@ -109,7 +125,7 @@
 
     			<div class="col-xs-12 col-sm-6 col-md-6 col-lg-6 socialmed">
                     <div class="pull-right">
-    				<span>Follow us on social media:</span>
+    				<span>Follow us:</span>
     				<a href="https://www.facebook.com"><i class="fa fa-facebook fa-2x" aria-hidden="true"></i></a>
     				<a href="https://www.instagram.com"><i class="fa fa-instagram fa-2x" aria-hidden="true"></i></a>
     				<a href="https://www.twitter.com"><i class="fa fa-twitter fa-2x" aria-hidden="true"></i></a>

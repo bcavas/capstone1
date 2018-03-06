@@ -7,6 +7,7 @@
 	margin-bottom: 0;
 	border: 0;
 	background-color: #5d5d5d;
+	width: 100%;
 }
 
 #nav ul li a {
@@ -120,8 +121,6 @@
 }
 
 #subheader {
-	/*background: url(../assets/bar.jpg) no-repeat center;
-	background-size: cover;*/
 	background-color: #090c02;
 	color: #d1d1d1;
 	min-height: 200px;
@@ -235,6 +234,7 @@
 #apply {
 	background-color: #ff0022;
 	color: #d1d1d1;
+	margin-bottom: 15px;
 }
 
 #contact {
@@ -343,4 +343,37 @@ footer a {
 
 #blogpic {
 	width: 100%;
+}
+
+#thanks {
+	margin-top: 20%;
+}
+
+#newsletter {
+	margin-top: 20%;
+}
+
+#talk {
+	margin-top: 20%;
+}
+
+.modal-body {
+	background-color: #273043;
+	color: #d1d1d1;
+}
+
+.modal-footer {
+	background-color: #090c02; 
+}
+
+#email {
+	margin-bottom: 5px;
+}
+
+/*Mobile Style adjustment for blog post header images*/
+@media only screen and (max-width: 767px) {
+	#blogpic {
+		margin-left: 0.5%;
+		padding-top: 7%;
+	}
 }

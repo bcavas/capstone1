@@ -77,8 +77,25 @@
     			<form class="form-inline" action="" id="subscribe">
  					<div class="form-group">
     	    		<input type="email" class="form-control" id="email" placeholder="Email">
-    	    		<button type="submit" class="btn btn-default" id="apply">Submit</button>
-  					</div>
+                                   
+                    <!-- modal trigger button -->
+                    <button type="button" class="btn btn-default pull-right" data-toggle="modal" data-target="#newsletter" id="apply">Submit</button>
+                    <!-- modal -->
+                    <div id="newsletter" class="modal fade" role="dialog">
+                        <div class="modal-dialog">
+                            <!-- modal content -->
+                            <div class="modal-content">
+                                
+                                <div class="modal-body"><p>Effective strength training doesn't have to be rocket science. Stay tuned and we'll show you.</p></div>
+
+                                <div class="modal-footer">
+                                <button type="button" class="btn btn-default" id="apply" data-dismiss="modal">Close</button></div>
+
+                            </div> <!-- end modal content -->
+                        </div> <!-- end modal dialog -->
+                    </div> <!-- end newsletter -->
+                                      
+  					</div> <!-- end of form-group -->
   				</form>
     		</div>
 
@@ -169,7 +186,7 @@
 
     			<div class="col-xs-12 col-sm-6 col-md-6 col-lg-6 socialmed">
                     <div class="pull-right">
-    				<span>Follow us on social media:</span>
+    				<span>Follow us:</span>
     				<a href="https://www.facebook.com"><i class="fa fa-facebook fa-2x" aria-hidden="true"></i></a>
     				<a href="https://www.instagram.com"><i class="fa fa-instagram fa-2x" aria-hidden="true"></i></a>
     				<a href="https://www.twitter.com"><i class="fa fa-twitter fa-2x" aria-hidden="true"></i></a>
