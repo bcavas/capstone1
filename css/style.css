@@ -116,8 +116,20 @@
 }
 
 #blog {
-	background-color: #d1d1d1;
-	color: #090c02;
+	background-color: #090c02;
+	color: #d1d1d1;
+}
+
+#blog a {
+	color: #ff0022;
+}
+
+#blog span {
+	color: #ff0022;
+}
+
+#blog li {
+	margin-top: 7px;
 }
 
 #subheader {
@@ -370,10 +382,15 @@ footer a {
 	margin-bottom: 5px;
 }
 
+#blogbody {
+	background-color: #090c02;
+}
+
+
 /*Mobile Style adjustment for blog post header images*/
 @media only screen and (max-width: 767px) {
 	#blogpic {
 		margin-left: 0.5%;
-		padding-top: 7%;
+		padding-top: 10%;
 	}
 }
